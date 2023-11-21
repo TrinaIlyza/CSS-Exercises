@@ -1,0 +1,30 @@
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box1 {
+    background-color: #ffebcd; /* Light peach */
+    border: 5px solid #ffa500; /* Orange */
+    margin-bottom: 40px;
+}
+
+.box2 {
+    background-color: #f0ebff; /* Lavender */
+    border: 10px double #87cefa; /* Sky blue */
+    margin-bottom: 40px;
+}
+
+.box3 {
+    background-color: #d6e9c6; /* Pale green */
+    border-width: 1em;
+    border-style: dashed; 
+    border-color: #28a745;
+    
+}
+
+.box p {
+    padding: 10px;
+    margin: 0;
+}
