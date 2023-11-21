@@ -1,0 +1,20 @@
+div {
+    float: left;
+    padding: 15px; 
+    width: 20%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .div1 {
+    background: #D4F1F4;
+  }
+  
+  .div2 {
+    background: #749DAD;
+  }
+  
+  .div3 {
+    background: #05445E;
+  }
