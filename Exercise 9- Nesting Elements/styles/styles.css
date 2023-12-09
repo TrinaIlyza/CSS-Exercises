@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.space-container {
+    width: 500px;
+    height: 500px;
+    background-color: #001f3f;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+}
+
+.planet {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.planet:hover {
+    transform: scale(1.1);
+}
+
+h2, p {
+    margin: 0;
+}
+
+.planet-name {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.planet-description {
+    font-size: 10px;
+}
+
+.mercury { background-color: #bababa; }
+.venus { background-color: #e8b50b; }
+.earth { background-color: #0077be; }
+.mars { background-color: #d35400; }
+.jupiter { background-color: #b37300; }
+.saturn { background-color: #e0c965; }
+.uranus { background-color: #99ebf8; }
+.neptune { background-color: #134f5c; }
